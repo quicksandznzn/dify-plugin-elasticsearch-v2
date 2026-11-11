@@ -1,4 +1,4 @@
-## Elasticsearch （Non-Pre-Auth）
+## Elasticsearch (Non-Pre-Auth)
 
 - **Author:** [quicksandzn](https://github.com/quicksandznzn)
 - **Github:** https://github.com/quicksandznzn/dify-plugin-elasticsearch-v2
@@ -16,9 +16,7 @@ Use [Elasticsearch](https://marketplace.dify.ai/plugin/quicksandzn/elasticsearch
 3. Replace each v2 Query or Create node with the corresponding tool from the maintained plugin. Copy its query or document settings, select the matching credential, and reconnect any downstream references to the node outputs.
 4. Run the workflow and confirm that each node connects to the intended Elasticsearch instance before removing the v2 plugin.
 
-### 迁移说明
-
-`quicksandzn/elasticsearch_v2` 将停止维护。请安装 [Elasticsearch](https://marketplace.dify.ai/plugin/quicksandzn/elasticsearch)，为每个连接分别保存一套凭据。将工作流中的 v2 查询或写入节点替换为对应工具，复制原有参数，为每个节点选择对应凭据，并更新下游节点对这些输出的引用。验证工作流后再卸载 v2。
+[Simplified Chinese migration guide](README.zh_Hans.md)
 
 ### Description
 - Support version 7.17+
