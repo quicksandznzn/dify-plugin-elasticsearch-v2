@@ -1,4 +1,4 @@
-version: 0.0.1
+version: 0.0.2
 type: plugin
 author: quicksandzn
 name: elasticsearch_v2
@@ -13,6 +13,8 @@ description:
   zh_Hans: 'Elasticsearch (非预授权)'
   pt_BR: 'Elasticsearch (Non-Pre-Auth)'
 icon: icon.svg
+tags:
+  - search
 resource:
   memory: 268435456
   permission:
