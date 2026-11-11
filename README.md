@@ -16,7 +16,7 @@ Use [Elasticsearch](https://marketplace.dify.ai/plugin/quicksandzn/elasticsearch
 3. Replace each v2 Query or Create node with the corresponding tool from the maintained plugin. Copy its query or document settings, select the matching credential, and reconnect any downstream references to the node outputs.
 4. Run the workflow and confirm that each node connects to the intended Elasticsearch instance before removing the v2 plugin.
 
-[Simplified Chinese migration guide](README.zh_Hans.md)
+[Simplified Chinese migration guide](readme/README_zh_Hans.md)
 
 ### Description
 - Support version 7.17+

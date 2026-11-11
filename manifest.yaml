@@ -2,6 +2,8 @@ version: 0.0.2
 type: plugin
 author: quicksandzn
 name: elasticsearch_v2
+repo: https://github.com/quicksandznzn/dify-plugin-elasticsearch-v2
+contact: quicksandzn@gmail.com
 label:
   en_US: Elasticsearch (Non-Pre-Auth)
   ja_JP: Elasticsearch (Non-Pre-Auth)
